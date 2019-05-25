@@ -1,10 +1,14 @@
 # resume
 
-## name
+## Name
 
 Rs305
 
-## EDUCATION
+## Education
 
 Undergraduate
+
+## Experience
+
+Adventuring...
 
