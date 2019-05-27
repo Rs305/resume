@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+ol {
+    list-style: none;
+}
+
+hr{
+    height: 0;
+    border: none;
+    border-top: 1px solid #DEDEDE;
+}
+
+.topNavBar .topNavBar-inner {
+    padding: 22px 191px 0 191px;
+}
+.topNavBar nav ul {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    color: #C1C3C6;
+    padding-left: 480px;
+}
+.topNavBar nav ul li {
+    float: left;
+    margin: 11px 17px 6px 17px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+}
+.topNavBar nav ul li :hover {
+    padding-bottom: 10px;
+    border-bottom: 3px #E8676B solid;
+    transition: 0.3s;
+}
+.topNavBar a {
+    float: left;
+}
+.topNavBar nav {
+    float: right;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Segoe UI Black";
+}
+.logo > .rs {
+    margin-right: 3px;
+    color: #E8676B;
+}
+.logo > .card {
+    color: #9A9DA2;
+}
+.topNavBar-inner {
+    position: fixed;
+}
+
+.banner {
+    height: 515px;
+    background-position: center center;
+    background-size: cover;
+}
+.banner .mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 40, 50, 0.8);
+}
+
+.userCard {
+    max-width: 930px;
+    /* border: #E8676B 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+.pictureAndText {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+footer.media {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.userCard .picture img {
+    width: 296px;
+    height: 342px;
+}
+.userCard .picture {
+    float: left;
+    padding: 57px 64px 44px 50px;
+} 
+.userCard .text {
+    float: left;
+}
+.text .profile .welcome {
+    color: #FFFFFF;
+    background-color: #E8676B;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 36px;
+    padding: 5px 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+}
+.text .profile .triangle {
+    margin-top: 5px;
+    margin-left: -3px;
+    width: 0;
+    position: absolute;
+    border: 8px transparent solid;
+    border-left-color: #E8676B;
+    border-top-width: 0;
+}
+.text .profile h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.text .profile hr {
+    margin: 28px 0;
+    width: 500px;
+}
+.text .profile dl {
+    max-width: 470px;
+}
+.text .profile dt {
+    margin-bottom: 13px;
+    float: left;
+    width: 30%;
+    font-size: 12px;
+}
+.text .profile dd {
+    margin-bottom: 13px;
+    float: left;
+    width: 70%;
+    font-size: 15px;
+    color: #9DA0A7;
+}
+.userCard .media {
+    background-color: #E8676B;
+    text-align: center;
+}
+.userCard .media a {
+    margin: 20px 17px;
+    border: 1px solid transparent;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: top;
+    width: 40px;
+}
+.userCard .media a:hover {
+    transition: 0.7s;
+    border: 1px solid #E8676B;
+    background: #D05C60;
+}
+.userCard svg {
+    fill: white;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    padding: 10px 0;
+}
+.mainLocation {
+    margin-top: -345px;
+}
+
+.container {
+    text-align: center;
+    margin: 36px 0;
+}
+.downloadPdf {
+    border: #CDCFD1 1px solid;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: 700;
+    color: #464D59;
+    padding: 24px 55px;
+    transition: 0.5s;
+}
+.downloadPdf:hover {
+    box-shadow: 0px 5px 10px 2px rgba(128,128,128,1);
+    transition: 0.5s;
+}
+.selfIntroduction {
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    text-align: center;
+
+    color: rgb(54, 52, 52);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+section.skills {
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px; 
+
+    background: white;
+}
+section.skills > h2 {
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+}
+.skills li {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding: 22px 20px;
+}
+.skills li:nth-child(even) {
+    float: right;
+}
+.skillsBorder {
+    background: #FAE1E1;
+    border-radius: 2px;
+    height: 5px;
+}
+.skillsBorder-inner {
+    border-radius: 2px;
+    height: 100%;
+    width: 40%;
+    background: #E8676B;
+}
